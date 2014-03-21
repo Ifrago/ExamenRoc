@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-Type" />
+    <title>Invalid Login</title>
+    <style>
+    body {
+        color:#0000;
+      font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Invalid Login</h1>
+    <p> Sorry, you are not a registered user! Please sign up first </p>
+  </body>
+</html>

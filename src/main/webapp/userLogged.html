@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Messages</title>
+    <style>
+    body {
+        color:#0000;
+      font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+      }
+table, td, th
+{
+        font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+border-collapse:collapse;
+color:#000000;
+background-color:#EAF2D3;
+}
+th
+{
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#A7C942;
+color:#ffffff;
+
+    }
+</style> </head>
+  <body>
+    <h1> Welcome <b>UserName</b> </h1>
+    <table cellpadding="0" border="1" bgcolor="#FFFFFF" style="width: 100%;">
+      <tr style="background-color: #99ffff;">
+        <th><b>From</b></th>
+        <th><b>Subject</b></th>
+        <th><b>Message</b></th>
+        <th><br />
+        </th>
+      </tr>
+      <tr>
+        <td><b>Yo</b></td>
+        <td><b>Hola</b></td>
+        <td><b>Hola a tots</b></td>
+        <td>
+          <form name="deleteForm" action="/Login/LoginServlet" method="POST"> <input
+              type="submit" value="Delete" /> <input type="hidden" name="delindex"
+              value="Id" /> <input type="hidden" name="action" value="DELETE" />
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
